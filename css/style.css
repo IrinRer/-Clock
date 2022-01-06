@@ -1,0 +1,46 @@
+* {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    border: 3px solid rgb(109, 92, 70);
+    border-radius: 60%;
+    padding: 200px;
+    background-color: wheat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hh {
+    color: purple;
+}
+
+.mm {
+    color: royalblue;
+}
+
+.ss {
+    color: seagreen;
+}
+
+.button_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: tan;
+}
